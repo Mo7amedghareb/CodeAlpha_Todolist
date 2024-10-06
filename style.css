@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(105, 167, 221);
+}
+.container{
+   
+    padding: 50px;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+.description{
+    margin-bottom: 100px;
+}
+.form{
+    height: 150px;
+    background-color:rgb(166, 170, 169);
+}
+.input{
+    margin-top: 0px;
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 100px;
+}
+.h3title{
+    margin-left: 200px;
+}
+.add{
+    height: 50px;
+    border-radius: 40px;
+    background-color:green;
+    color: white;
+    font-weight: bold;
+    cursor: cell;
+}
+.delall{
+    text-align: center;
+    height: 50px;
+    border-radius: 40px;
+    background-color:red;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.tasks{
+    background-color: gray;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.tasks .task {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+  }
+  .tasks .task:hover {
+    background-color: green;
+  }
+  .tasks .task.done {
+    opacity: 0.2;
+    background-color: blue;
+  }
+  .tasks .task span {
+        font-weight: bold;
+        font-size: 20px;
+        background-color: red;
+        color: rgb(255, 255, 255);
+        padding: 2px 6px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
