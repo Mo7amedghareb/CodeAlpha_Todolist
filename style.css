@@ -2,33 +2,25 @@ body{
     background-color: rgb(201, 203, 205);
     margin: 0px;
 }
+
 .container{
     padding: 50px;
     height: 100vh;
     margin-bottom: 50px;
 }
+
 .description{
     margin-bottom: 50px;
     text-align: center;
     font-size: large;
 }
-/* .form{
-    height: 150px;
-    background-color:rgba(166, 170, 169, 0);
-} */
+
 .input{
     margin-top: 0px;
     width: 200px;
     height: 40px;
     padding: 5px;
     margin-left: 50px;
-}
-.myid{
-    margin-top: 0px;
-    width: 200px;
-    height: 40px;
-    padding: 5px;
-    margin-left: 20px;
 }
 .btnupdate{
     height: 50px;
@@ -38,13 +30,7 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
-.hthree{
-    display: flex;
-}
 .h3title{
-    margin-left: 100px;
-}
-.h3id{
     margin-left: 100px;
 }
 .add{
